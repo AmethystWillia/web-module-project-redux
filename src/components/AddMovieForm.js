@@ -20,7 +20,6 @@ const AddMovieForm = (props) => {
             ...movie,
             [e.target.name]: e.target.value,
         });
-        console.log(movie)
     };
 
     const handleSubmit = (e) => {
