@@ -13,7 +13,6 @@ const reducer = (state = initialState, action) => {
                 movies: state.movies.filter(item=>(action.payload !== item.id))
             }
         case ADD_MOVIE:
-            console.log(initialState.movies);
             return {
                 ...state,
                 movies: [...state.movies, action.payload]
