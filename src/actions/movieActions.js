@@ -6,6 +6,6 @@ export const deleteMovie = (id)=>{
 
 export const ADD_MOVIE = "DELETE_MOVIE";
 
-export const addMovie = ({id, title, director, genre, metascore, description})=>{
+export const addMovie = ({title, director, genre, metascore, description})=>{
     return({type: ADD_MOVIE, payload: {id:7, title:title, director:director, genre:genre, metascore:metascore, description:description}});
 }

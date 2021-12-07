@@ -12,7 +12,7 @@ const Movie = (props) => {
     const movie = movies.find(movie=>movie.id===Number(id));
 
     const handleDelete = (id) => {
-        props.deleteMovie(id);
+        props.deleteMovie(movie.id);
         push('/movies');
     };
     
