@@ -64,13 +64,13 @@ In this project, you take a fairly complex application used to search a movie da
   -  favorites: an array of movie objects
   -  displayFavorites: a boolean that holds if favorite elements should be displayed in app
 
-* [ ] **Import your new reducer file into the ./reducers/index.js file.** As a start, only add a default case to the switch statement.
+* [✔] **Import your new reducer file into the ./reducers/index.js file.** As a start, only add a default case to the switch statement.
 
-* [ ] **In reducers/index.js, use the combineReducers method to connect both movies and favorite movies to redux.**
+* [✔] **In reducers/index.js, use the combineReducers method to connect both movies and favorite movies to redux.**
 
-* [ ] **Notice that your movie functions no longer work. Why?** Make changes necessary to get the component connected to the movie reducer working again.
+* [✔] **Notice that your movie functions no longer work. Why?** Make changes necessary to get the component connected to the movie reducer working again.
 
-* [ ] Connect the favorites state to the FavoriteMovieList component and test.
+* [✔] Connect the favorites state to the FavoriteMovieList component and test.
 
 * [ ] Connect the displayFavorites state to the Movie and MovieHeader component.
 
