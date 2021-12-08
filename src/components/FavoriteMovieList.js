@@ -20,7 +20,9 @@ const FavoriteMovieList = (props) => {
                 return <div key={movie.id}>
                     <Link className="btn btn-light savedButton" to={`/movies/${movie.id}`}>
                         {movie.title}
-                        <span onClick={handleRemoveFavs} ><span className="material-icons">remove_circle</span></span>
+                        <span><span onClick={() => {
+                            handleRemoveFavs(movie.id);
+                        }} className="material-icons">remove_circle</span></span>
                     </Link> 
                 </div>
             })
